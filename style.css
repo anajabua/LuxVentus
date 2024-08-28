@@ -4,3 +4,168 @@
     box-sizing: border-box;
     text-decoration: 0;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* სექციების სტილები*/
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 84px;
+}
+
+
+/* style logo and navigation */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
+}
+
+
+.logo img{
+   width: 234px;
+   height: 49px; 
+   transition: .2s; 
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.navigation{
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+}
+
+
+.navigation a{
+    color: #262626;
+    font-weight: 700; 
+    font-size: 14px;  
+    line-height: 21px; 
+    padding: 8px 32px;
+    transition: 0.3s;
+}
+
+
+.navigation img{
+    margin-left: 84px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navigation img:hover{
+    transform: scale(1.1);
+}
+
+
+.navigation a:hover {
+    background-color: #4CE0D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+/* style first-section (background and text) */
+.first-section{
+    background-image: url(./photos/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    gap:21px;
+    padding-top: 218px;
+    padding-bottom: 150px;
+    max-width: 1272px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding-left: 57px;
+
+    border-radius: 20px;    
+}
+
+
+.first-section h4{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+.first-section h1{
+    font-weight: 400;
+    font-size: 46px;
+    color: white;
+}
+
+
+
+.first-section span {
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    color: transparent; /* Fallback for browsers that don't support background-clip */
+    -webkit-background-clip: text;
+    background-clip: text; /* For non-webkit browsers */
+    font-weight: 700;
+}
+
+
+.first-section p{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 494px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media(max-width:1215px){
+    .container{
+        padding: 0px 40px;
+    }
+
+    .header{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .navigation a{
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .navigation img{
+        margin-left: 40px;
+    }
+}

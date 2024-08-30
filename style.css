@@ -318,6 +318,119 @@ body {
   color: #262626;
 }
 
+.trending-section{
+  max-width: 1204px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+.trending-title h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 55px;
+}
+.trending-cards{
+  display: flex;
+  justify-content: space-between;
+}
+.trending-card{
+  box-shadow: 0px 6px 6px 0px #0000000D;
+  width: max-content;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.trending-button a{
+  padding: 10px 49px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: #262626;
+  border-radius: 40px;
+}
+
+.trending-card-third a:hover{
+  transform: translateX(10px);
+}
+
+
+.trending-button{
+  background: url(./photos/lifestyle.jfif);
+  padding: 20px 369px 219px 34px;
+  width: max-content;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.trending-card-first{
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-left: 26px;
+  margin-top: 23px;
+  color: #BCBCBC;
+  font-size: 14px;
+  font-weight: 400;
+}
+.trending-card-first img{
+  border-radius: 100%;
+}
+.trending-card-first div{
+  display: flex;
+  gap: 160px;
+}
+.trending-card-second{
+  max-width: 430px;
+  margin-left: 26px;
+  margin-top: 29px;
+}
+.trending-card-second h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.trending-card1 {
+  background: url(./photos/photo2.png);
+}
+
+.trending-button a:hover {
+  background: white;
+  color: #262626;
+}
+
+.trending-button a{
+  transition: .2s;
+}
+
+.trending-card:hover{
+  transform: translateY(-15px);
+}
+
+.trending-card-second p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+}
+.trending-card-third a{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #4CE0D7;
+  margin-top: 20px;
+  margin-left: 26px;
+  margin-bottom: 36px;
+  transition: 0.2s;
+}
+
 /* responsive */
 
 @media (max-width: 1215px) {

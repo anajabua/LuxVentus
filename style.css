@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
 }
 
 /* სექციების სტილები*/
@@ -160,6 +161,7 @@ body {
   border-radius: 20px;
 }
 
+
 .card_img {
   width: 88px;
   height: 88px;
@@ -303,7 +305,17 @@ body {
 }
 
 .scale:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(-5px);
+}
+
+.third_section--tag{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.third_section--tag:hover{
+  background-color: #ffffff;
+  color: #262626;
 }
 
 /* responsive */

@@ -318,21 +318,28 @@ body {
   color: #262626;
 }
 
+/* style section "trending" */
 .trending-section{
   max-width: 1204px;
   margin: 0 auto;
   margin-bottom: 88px;
 }
+
+
 .trending-title h1{
   font-size: 32px;
   font-weight: 700;
   color: #262626;
   margin-bottom: 55px;
 }
+
+
 .trending-cards{
   display: flex;
   justify-content: space-between;
 }
+
+
 .trending-card{
   box-shadow: 0px 6px 6px 0px #0000000D;
   width: max-content;
@@ -341,6 +348,8 @@ body {
   transition: 0.2s;
   cursor: pointer;
 }
+
+
 .trending-button a{
   padding: 10px 49px;
   font-size: 12px;
@@ -349,6 +358,7 @@ body {
   background-color: #262626;
   border-radius: 40px;
 }
+
 
 .trending-card-third a:hover{
   transform: translateX(10px);
@@ -364,6 +374,8 @@ body {
   background-repeat: no-repeat;
   border-radius: 20px;
 }
+
+
 .trending-card-first{
   display: flex;
   align-items: center;
@@ -374,18 +386,26 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+
+
 .trending-card-first img{
   border-radius: 100%;
 }
+
+
 .trending-card-first div{
   display: flex;
   gap: 160px;
 }
+
+
 .trending-card-second{
   max-width: 430px;
   margin-left: 26px;
   margin-top: 29px;
 }
+
+
 .trending-card-second h1{
   font-size: 26px;
   font-weight: 700;
@@ -405,15 +425,19 @@ body {
   transition: .2s;
 }
 
+
 .trending-card:hover{
   transform: translateY(-15px);
 }
+
 
 .trending-card-second p{
   font-size: 16px;
   font-weight: 400;
   color: #262626;
 }
+
+
 .trending-card-third a{
   display: flex;
   align-items: center;
@@ -430,6 +454,76 @@ body {
   margin-bottom: 36px;
   transition: 0.2s;
 }
+
+
+/* style last card container section */
+
+
+
+/* style footer */
+.footer{ 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0 auto; 
+} 
+
+
+.logo_footer img { 
+  width: 226px; 
+  height: 49px; 
+  transition: 0.2s; 
+  margin-top: 87px; 
+} 
+
+
+.logo_footer img:hover { 
+  transform: scale(1.1); 
+} 
+
+
+.contact{ 
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  margin-top: 92px; 
+} 
+
+
+.contact a img:hover{ 
+  transform: scale(1.1); 
+} 
+
+
+.contact p{ 
+  font-size: 26px; 
+  font-weight: 700; 
+  margin-right: 15px; 
+} 
+
+
+.line2{ 
+  margin-top: 77px; 
+  margin-bottom: 34px; 
+  max-width: 1267px; 
+} 
+
+
+footer{ 
+  background-color: white; 
+  border-radius: 40px 40px 0px 0px; 
+  box-shadow: 6px 0px 6px 0px #0000000D; 
+}
+
+
+.footer-second{ 
+  padding-bottom: 37px; 
+} 
+
+
+.footer-second p{ font-size: 14px; font-weight: 700; 
+}
+
 
 /* responsive */
 

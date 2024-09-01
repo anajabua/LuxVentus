@@ -458,6 +458,144 @@ body {
 
 /* style last card container section */
 
+.last_container{
+  margin-bottom: 69px;
+}
+
+.last_container_card{
+  display: flex;
+  align-items: center;
+}
+
+.last_texts{
+  margin-left: 46px;
+}
+
+.texts1{
+  margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+}
+
+.texts1 div{
+  display: flex;
+  gap: 218px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #BCBCBC;
+  width: 1204px;
+}
+
+.texts1 img{
+  border-radius: 100%;
+}
+
+
+.texts2{
+  margin-bottom: 19px;
+  max-width: 450px;
+}
+
+.texts2 h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 17px;
+}
+
+.texts2 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.texts3 a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #4CE0D7;
+  letter-spacing: 0.24em;
+  text-align: left;
+}
+
+.last_container_card_button a:hover {
+  background: white;
+  color: #262626;
+}
+
+.last_container_card_button a{
+  padding: 10px 52px;
+  max-width: 175px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #262626;
+  border-radius: 40px;
+  transition: .3s;
+}
+
+.last_container_card_button{
+  padding: 25px 338px 305px 34px;
+  /* background: url(./photos/1.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: max-content;
+  border-radius: 20px;
+}
+
+
+.last_container_card{
+  display: flex;
+  align-items: center;
+  max-width: 1204px;
+  margin: 0 auto;
+  box-shadow: 0px 6px 6px 0px #0000000D;
+  background-color: white;
+  border-radius: 20px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.last_container_card:hover{
+  transform: scale(1.1);
+}
+
+.last_container_cards{
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+
+.texts3 a:hover{
+  transform: translateX(10px);
+}
+
+.texts3{
+  transition: .3s;
+}
+
+.card_fashion .last_container_card_button {
+  background-image: url('./photos/1.png');
+  width: 547.51px;
+  height: 367.41px;
+}
+
+.card_ensembles .last_container_card_button {
+  background-image: url('./photos/2.png');
+  width: 547.51px;
+  height: 367.41px;
+}
+
+.card_mental_health .last_container_card_button {
+  background-image: url('./photos/Mask\ group\ \(2\).png');
+  width: 547.51px;
+height: 367.41px;
+}
 
 
 /* style footer */
@@ -591,4 +729,97 @@ footer{
   br {
     display: none;
   }
+
+  .trending-section {
+    padding: 0 20px;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .trending-title h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .trending-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .trending-card {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .trending-button {
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .trending-card-first {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .trending-card-first div {
+    gap: 10px;
+  }
+
+  .trending-card-second {
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .trending-card-second h1 {
+    font-size: 22px;
+  }
+
+  .trending-card-second p {
+    font-size: 14px;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo_footer img {
+    width: 180px;
+    height: auto;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+
+  .contact a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .line2 {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+
+  .footer-second {
+    padding: 20px;
+  }
+
+  .footer-second p {
+    font-size: 12px;
+  }
 }
+

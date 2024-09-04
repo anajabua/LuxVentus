@@ -460,15 +460,25 @@ body {
 
 .last_container{
   margin-bottom: 69px;
+  max-width: 1440px;
+  width: 100%;  
+  
+}
+
+.last_container_cards{
+  margin: 0 auto;
 }
 
 .last_container_card{
   display: flex;
   align-items: center;
+  margin: 0 auto;
+
 }
 
 .last_texts{
   margin-left: 46px;
+  width: max-content;
 }
 
 .texts1{
@@ -476,16 +486,17 @@ body {
   display: flex;
   align-items: center;
   gap: 17px;
+  width: 100%
 
 }
 
 .texts1 div{
   display: flex;
-  gap: 218px;
+  width: 100%;
+  justify-content: space-between;
   font-size: 14px;
   font-weight: 400;
   color: #BCBCBC;
-  width: 1204px;
 }
 
 .texts1 img{
@@ -503,6 +514,7 @@ body {
   font-weight: 700;
   color: #262626;
   margin-bottom: 17px;
+  
 }
 
 .texts2 p{
@@ -511,7 +523,9 @@ body {
   color: #262626;
 }
 
+
 .texts3 a{
+  max-width: 400px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -521,6 +535,7 @@ body {
   color: #4CE0D7;
   letter-spacing: 0.24em;
   text-align: left;
+  width: max-content;
 }
 
 .last_container_card_button a:hover {
@@ -553,6 +568,7 @@ body {
   display: flex;
   align-items: center;
   max-width: 1204px;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 0px 6px 6px 0px #0000000D;
   background-color: white;
@@ -594,8 +610,8 @@ body {
 .card_mental_health .last_container_card_button {
   background-image: url('./photos/Mask\ group\ \(2\).png');
   width: 547.51px;
-height: 367.41px;
-white-space: nowrap;
+  height: 367.41px;
+  white-space: nowrap;
 }
 
 
@@ -652,6 +668,7 @@ footer{
   background-color: white; 
   border-radius: 40px 40px 0px 0px; 
   box-shadow: 6px 0px 6px 0px #0000000D; 
+  width: 100%;
 }
 
 
@@ -660,13 +677,15 @@ footer{
 } 
 
 
-.footer-second p{ font-size: 14px; font-weight: 700; 
+.footer-second p{ 
+  font-size: 14px; 
+  font-weight: 700; 
 }
 
 
 /* responsive */
 
-@media (max-width: 1215px) {
+@media (max-width: 1230px) {
   .container {
     padding: 0px 40px;
   }
@@ -685,6 +704,10 @@ footer{
 
   .navigation img {
     margin-left: 40px;
+  }
+
+  .first-section{
+    background-position: right;
   }
 
   /* second section */
@@ -740,6 +763,7 @@ footer{
   .trending-title h1 {
     text-align: center;
     font-size: 24px;
+    margin-top: 30px;
   }
 
   .trending-cards {
@@ -758,6 +782,7 @@ footer{
     padding: 20px;
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
 
   .trending-card-first {
@@ -783,6 +808,27 @@ footer{
     font-size: 14px;
   }
 
+  .trending-button {
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+
+
+  .last_container_card{
+    flex-direction: column;
+    width: max-content;
+    gap: 20px;
+  }
+
+   /* third  */
+
+   .third_section{
+    max-width: 700px;
+   }
+
   /* Footer adjustments */
   .footer {
     flex-direction: column;
@@ -797,7 +843,7 @@ footer{
   }
 
   .contact {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 10px;
   }
 
